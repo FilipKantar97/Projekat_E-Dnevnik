@@ -1,0 +1,122 @@
+﻿@model Projekat_Dnevnik.Models.Ucenik
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ucenik</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Prezime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prezime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ime_Roditelja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ime_Roditelja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JMBG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JMBG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Datum_Rodjenja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datum_Rodjenja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mesto_Rodjenja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mesto_Rodjenja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Opstina_Rodjenja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Opstina_Rodjenja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Broj_Licne_Karte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Broj_Licne_Karte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fotografija)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fotografija)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Beleska)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Beleska)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ocene.Srpski)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ocene.Srpski)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDOsobe }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

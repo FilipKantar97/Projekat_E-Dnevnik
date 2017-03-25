@@ -1,0 +1,42 @@
+﻿@model Projekat_Dnevnik.Models.Email_Adresa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Email_Adresa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ucenik.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ucenik.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrsta_Email.Ime_OznakeMail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrsta_Email.Ime_OznakeMail)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDOsobe }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

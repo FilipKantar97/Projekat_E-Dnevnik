@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Projekat_Dnevnik.Models.Ucenik>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+
+    @foreach (var item in Model)
+    {
+        <ul class="list-group">
+            <li class="list-group-item active">Ucenici</li>
+
+            <li class="list-group-item">Ime i prezime: @Html.DisplayFor(modelItem => item.Ime) @Html.DisplayFor(modelItem => item.Prezime)</li>
+
+            <li class="list-group-item">Ime Roditelja: @Html.DisplayFor(modelItem => item.Ime_Roditelja)</li>
+
+            <li class="list-group-item">JMBG: @Html.DisplayFor(modelItem => item.JMBG)</li>
+
+            <li class="list-group-item">Datum Rodjenja: @Html.DisplayFor(modelItem => item.Datum_Rodjenja)</li>
+
+            <li class="list-group-item">Mesto Rodjenja: @Html.DisplayFor(modelItem => item.Mesto_Rodjenja)</li>
+
+            <li class="list-group-item">Opstina Rodjenja: @Html.DisplayFor(modelItem => item.Opstina_Rodjenja)</li>
+
+            <li class="list-group-item">Pol: @Html.DisplayFor(modelItem => item.Pol)</li>
+
+            <li class="list-group-item">Broj licne karte: @Html.DisplayFor(modelItem => item.Broj_Licne_Karte)</li>
+
+            <li class="list-group-item">Fotografija: @Html.DisplayFor(modelItem => item.Fotografija)</li>
+
+            <li class="list-group-item">Beleska: @Html.DisplayFor(modelItem => item.Beleska)</li>
+
+            <li class="list-group-item">Pin: @Html.DisplayFor(modelItem => item.Pin)</li>
+                 
+            <li class="list-group-item text-center "> @Html.ActionLink("Edit", "Edit", new { id = item.IDOsobe }) </li>
+            <li class="list-group-item text-center btn" role="button" onclick="location.href='javascript:window.print()';"> Print </li>
+        </ul>
+    }
+
+</div>

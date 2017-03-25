@@ -1,0 +1,50 @@
+﻿@model Projekat_Dnevnik.Models.Kontakt
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Kontakt</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Broj_Telefona)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Broj_Telefona)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lokal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lokal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ucenik.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ucenik.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrsta_Kontakta.Ime_Oznake)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrsta_Kontakta.Ime_Oznake)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDOsobe }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

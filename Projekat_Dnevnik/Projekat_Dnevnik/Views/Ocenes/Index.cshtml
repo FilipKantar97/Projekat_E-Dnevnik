@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Projekat_Dnevnik.Models.Ocene>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+        
+    @foreach (var item in Model)
+    {
+        <ul class="list-group">
+            <li class="list-group-item active">Ocene</li>
+            <li class="list-group-item">Ime i prezime: @Html.DisplayFor(modelItem => item.Ucenik.Ime) @Html.DisplayFor(modelItem => item.Ucenik.Prezime)</li>
+
+            <li class="list-group-item">Srpski: @Html.DisplayFor(modelItem => item.Srpski)</li>
+            
+            <li class="list-group-item"> Matematika: @Html.DisplayFor(modelItem => item.Matematika)</li>
+
+            <li class="list-group-item">Istorija: @Html.DisplayFor(modelItem => item.Istorija)</li>
+
+            <li class="list-group-item">Geografija: @Html.DisplayFor(modelItem => item.Geografija)</li>
+
+            <li class="list-group-item">Informatika: @Html.DisplayFor(modelItem => item.Informatika)</li>
+
+            <li class="list-group-item">Fizicko: @Html.DisplayFor(modelItem => item.Fizicko)</li>
+
+            <li class="list-group-item">Vladanje: @Html.DisplayFor(modelItem => item.Vladanje)</li>
+
+
+            <li class="list-group-item text-center"> @Html.ActionLink("Edit", "Edit", new { id = item.IDOsoba }) </li>
+</ul>
+    }
+
+</div>

@@ -1,0 +1,26 @@
+﻿@model Projekat_Dnevnik.Models.OceneVM
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container" style="width:60%;margin-top:2%">
+
+    @if (Model!=null)
+    {
+        <ul class="list-group">
+            <li class="list-group-item active">Ocene</li>
+            <li class="list-group-item">Srpski:@Model.Srpski</li>
+            <li class="list-group-item">Matematika:@Model.Matematika</li>
+            <li class="list-group-item">Istorija:@Model.Istorija</li>
+            <li class="list-group-item">Geografija:@Model.Geografija</li>
+            <li class="list-group-item">Informatika:@Model.Informatika</li>
+            <li class="list-group-item">Fizicko:@Model.Fizicko</li>
+            <li class="list-group-item">Vladanje:@Model.Vladanje</li>
+            <li class="list-group-item active btn btn-primary" role="button"  onclick="location.href='javascript:window.print()';"> Odštampajte ocene </li>
+        </ul>
+    }
+</div>

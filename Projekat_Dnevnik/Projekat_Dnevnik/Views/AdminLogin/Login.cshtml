@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm())
+{
+    <div class="body-content" style="vertical-align:middle">
+        <table class="tab-content" align="center">
+            <td class="f1_label">Username:</td>
+            <td><input type="text" required @Html.TextBox("name")</td>
+            <td class="f1_label">Password:</td>
+            <td><input type="text" required @Html.TextBox("password") </td>
+            <td><input type="submit" class="btn btn-primary " value="Login" /></td>
+        </table>
+    </div>
+}

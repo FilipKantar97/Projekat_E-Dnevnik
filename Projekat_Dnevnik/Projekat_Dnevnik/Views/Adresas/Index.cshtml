@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Projekat_Dnevnik.Models.Adresa>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+
+    @foreach (var item in Model)
+    {
+        <ul class="list-group">
+            <li class="list-group-item active">Adresa</li>
+            <li class="list-group-item">Ime i prezime: @Html.DisplayFor(modelItem => item.Ucenik.Ime) @Html.DisplayFor(modelItem => item.Ucenik.Prezime)</li>
+
+            <li class="list-group-item">Adresa: @Html.DisplayFor(modelItem => item.Adresa1)</li>
+
+            <li class="list-group-item">Postanski broj: @Html.DisplayFor(modelItem => item.Postanski_Broj)</li>
+
+            <li class="list-group-item">Grad: @Html.DisplayFor(modelItem => item.Grad)</li>
+
+            <li class="list-group-item">Vrsta adrese: @Html.DisplayFor(modelItem => item.Vrsta_Adresa.Ime_OznakeAdresa)</li>
+
+            <li class="list-group-item text-center"> @Html.ActionLink("Edit", "Edit", new { id = item.IDOsobe }) </li>
+            
+        </ul>
+    }
+
+</div>

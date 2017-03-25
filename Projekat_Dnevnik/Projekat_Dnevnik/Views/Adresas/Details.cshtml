@@ -1,0 +1,58 @@
+﻿@model Projekat_Dnevnik.Models.Adresa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Adresa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Adresa1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adresa1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Postanski_Broj)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Postanski_Broj)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ucenik.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ucenik.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrsta_Adresa.Ime_OznakeAdresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrsta_Adresa.Ime_OznakeAdresa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDOsobe }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DnevnikModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Adresa">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="Adresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Postanski_Broj" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Grad" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="IDOsobe" Type="int" Nullable="false" />
+    <Property Name="IDOznakeAdresa" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Email_Adresa">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="Adresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDOsobe" Type="int" Nullable="false" />
+    <Property Name="IDOznakeMail" Type="int" />
+  </EntityType>
+  <EntityType Name="Kontakt">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="Broj_Telefona" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lokal" Type="varchar" MaxLength="10" />
+    <Property Name="IDOsobe" Type="int" Nullable="false" />
+    <Property Name="IDOznake" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ocene">
+    <Key>
+      <PropertyRef Name="IDOsoba" />
+    </Key>
+    <Property Name="IDOsoba" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Srpski" Type="nvarchar" MaxLength="25" />
+    <Property Name="Matematika" Type="nvarchar" MaxLength="25" />
+    <Property Name="Istorija" Type="nvarchar" MaxLength="25" />
+    <Property Name="Geografija" Type="nvarchar" MaxLength="25" />
+    <Property Name="Informatika" Type="nvarchar" MaxLength="25" />
+    <Property Name="Fizicko" Type="nvarchar" MaxLength="25" />
+    <Property Name="Vladanje" Type="nvarchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Ucenik">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="IDOsobe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Prezime" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Ime_Roditelja" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="JMBG" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="Datum_Rodjenja" Type="date" Nullable="false" />
+    <Property Name="Mesto_Rodjenja" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Opstina_Rodjenja" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Pol" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Broj_Licne_Karte" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Fotografija" Type="image" />
+    <Property Name="Beleska" Type="varchar" MaxLength="50" />
+    <Property Name="Pin" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vrsta_Adresa">
+    <Key>
+      <PropertyRef Name="IDOznakeAdresa" />
+    </Key>
+    <Property Name="IDOznakeAdresa" Type="int" Nullable="false" />
+    <Property Name="Ime_OznakeAdresa" Type="nvarchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vrsta_Email">
+    <Key>
+      <PropertyRef Name="IDOznakeMail" />
+    </Key>
+    <Property Name="IDOznakeMail" Type="int" Nullable="false" />
+    <Property Name="Ime_OznakeMail" Type="nvarchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vrsta_Kontakta">
+    <Key>
+      <PropertyRef Name="IDOznake" />
+    </Key>
+    <Property Name="IDOznake" Type="int" Nullable="false" />
+    <Property Name="Ime_Oznake" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Adresa_Ucenik">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Adresa" Type="Self.Adresa" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Adresa">
+        <PropertyRef Name="IDOsobe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Adresa_Vrsta_Adresa">
+    <End Role="Vrsta_Adresa" Type="Self.Vrsta_Adresa" Multiplicity="1" />
+    <End Role="Adresa" Type="Self.Adresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vrsta_Adresa">
+        <PropertyRef Name="IDOznakeAdresa" />
+      </Principal>
+      <Dependent Role="Adresa">
+        <PropertyRef Name="IDOznakeAdresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Email_Adresa_Ucenik">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Email_Adresa" Type="Self.Email_Adresa" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Email_Adresa">
+        <PropertyRef Name="IDOsobe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Email_Adresa_Vrsta_Email">
+    <End Role="Vrsta_Email" Type="Self.Vrsta_Email" Multiplicity="0..1" />
+    <End Role="Email_Adresa" Type="Self.Email_Adresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vrsta_Email">
+        <PropertyRef Name="IDOznakeMail" />
+      </Principal>
+      <Dependent Role="Email_Adresa">
+        <PropertyRef Name="IDOznakeMail" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kontakt_Ucenik">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Kontakt" Type="Self.Kontakt" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Kontakt">
+        <PropertyRef Name="IDOsobe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kontakt_Vrsta_Kontakta">
+    <End Role="Vrsta_Kontakta" Type="Self.Vrsta_Kontakta" Multiplicity="1" />
+    <End Role="Kontakt" Type="Self.Kontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vrsta_Kontakta">
+        <PropertyRef Name="IDOznake" />
+      </Principal>
+      <Dependent Role="Kontakt">
+        <PropertyRef Name="IDOznake" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ocene_Ucenik">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Ocene" Type="Self.Ocene" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Ocene">
+        <PropertyRef Name="IDOsoba" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DnevnikModelStoreContainer">
+    <EntitySet Name="Adresa" EntityType="Self.Adresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Email_Adresa" EntityType="Self.Email_Adresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kontakt" EntityType="Self.Kontakt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ocene" EntityType="Self.Ocene" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ucenik" EntityType="Self.Ucenik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vrsta_Adresa" EntityType="Self.Vrsta_Adresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vrsta_Email" EntityType="Self.Vrsta_Email" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vrsta_Kontakta" EntityType="Self.Vrsta_Kontakta" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Adresa_Ucenik" Association="Self.FK_Adresa_Ucenik">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Adresa" EntitySet="Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Adresa_Vrsta_Adresa" Association="Self.FK_Adresa_Vrsta_Adresa">
+      <End Role="Vrsta_Adresa" EntitySet="Vrsta_Adresa" />
+      <End Role="Adresa" EntitySet="Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Email_Adresa_Ucenik" Association="Self.FK_Email_Adresa_Ucenik">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Email_Adresa" EntitySet="Email_Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Email_Adresa_Vrsta_Email" Association="Self.FK_Email_Adresa_Vrsta_Email">
+      <End Role="Vrsta_Email" EntitySet="Vrsta_Email" />
+      <End Role="Email_Adresa" EntitySet="Email_Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kontakt_Ucenik" Association="Self.FK_Kontakt_Ucenik">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Kontakt" EntitySet="Kontakt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kontakt_Vrsta_Kontakta" Association="Self.FK_Kontakt_Vrsta_Kontakta">
+      <End Role="Vrsta_Kontakta" EntitySet="Vrsta_Kontakta" />
+      <End Role="Kontakt" EntitySet="Kontakt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ocene_Ucenik" Association="Self.FK_Ocene_Ucenik">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Ocene" EntitySet="Ocene" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

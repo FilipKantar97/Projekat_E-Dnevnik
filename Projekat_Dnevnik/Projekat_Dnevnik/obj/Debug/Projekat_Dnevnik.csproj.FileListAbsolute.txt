@@ -1,0 +1,228 @@
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\ApplicationInsights.config
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\csc.exe
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Collections.Immutable.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\vbc.exe
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe.config
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll.config
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.pdb
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.Web.Infrastructure.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\WebGrease.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.pdb
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.csprojResolveAssemblyReference.cache
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.pdb
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.dll
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.xml
+c:\users\djordje\documents\visual studio 2015\Projects\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\ApplicationInsights.config
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\csc.exe
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\vbc.exe
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll.config
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.pdb
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\WebGrease.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.pdb
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.xml
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.csprojResolveAssemblyReference.cache
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.dll
+C:\Users\luka\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.pdb
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\ApplicationInsights.config
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\csc.exe
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\vbc.exe
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll.config
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.pdb
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\WebGrease.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.pdb
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.csprojResolveAssemblyReference.cache
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik (1)\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.pdb
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\ApplicationInsights.config
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\csc.exe
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\vbc.exe
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll.config
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Projekat_Dnevnik.pdb
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\WebGrease.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\EntityFramework.SqlServer.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.Web.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Helpers.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Mvc.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Optimization.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.Razor.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\System.Web.WebPages.Razor.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Antlr3.Runtime.pdb
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\bin\Newtonsoft.Json.xml
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.csprojResolveAssemblyReference.cache
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.dll
+C:\Users\Filip\Downloads\Projekat_Dnevnik\Projekat_Dnevnik\Projekat_Dnevnik\obj\Debug\Projekat_Dnevnik.pdb

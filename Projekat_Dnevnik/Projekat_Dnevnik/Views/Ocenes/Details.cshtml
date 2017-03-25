@@ -1,0 +1,82 @@
+﻿@model Projekat_Dnevnik.Models.Ocene
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ocene</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Srpski)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Srpski)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Matematika)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Matematika)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Istorija)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Istorija)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Geografija)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Geografija)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Informatika)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Informatika)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fizicko)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fizicko)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vladanje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vladanje)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ucenik.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ucenik.Ime)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDOsoba }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

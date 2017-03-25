@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DnevnikModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ucenik">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="IDOsobe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Prezime" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Ime_Roditelja" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="JMBG" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Datum_Rodjenja" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Mesto_Rodjenja" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Opstina_Rodjenja" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pol" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Broj_Licne_Karte" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fotografija" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Beleska" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Pin" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Adresa" Relationship="Self.FK_Adresa_Ucenik1" FromRole="Ucenik" ToRole="Adresa" />
+    <NavigationProperty Name="Email_Adresa" Relationship="Self.FK_Email_Adresa_Ucenik1" FromRole="Ucenik" ToRole="Email_Adresa" />
+    <NavigationProperty Name="Kontakt" Relationship="Self.FK_Kontakt_Ucenik1" FromRole="Ucenik" ToRole="Kontakt" />
+  </EntityType>
+  <EntityType Name="Vrsta_Adresa">
+    <Key>
+      <PropertyRef Name="IDOznakeAdresa" />
+    </Key>
+    <Property Name="IDOznakeAdresa" Type="Int32" Nullable="false" />
+    <Property Name="Ime_OznakeAdresa" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Adresa" Relationship="Self.FK_Adresa_Vrsta_Adresa" FromRole="Vrsta_Adresa" ToRole="Adresa" />
+  </EntityType>
+  <EntityType Name="Vrsta_Email">
+    <Key>
+      <PropertyRef Name="IDOznakeMail" />
+    </Key>
+    <Property Name="IDOznakeMail" Type="Int32" Nullable="false" />
+    <Property Name="Ime_OznakeMail" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Email_Adresa" Relationship="Self.FK_Email_Adresa_Vrsta_Email" FromRole="Vrsta_Email" ToRole="Email_Adresa" />
+  </EntityType>
+  <EntityType Name="Vrsta_Kontakta">
+    <Key>
+      <PropertyRef Name="IDOznake" />
+    </Key>
+    <Property Name="IDOznake" Type="Int32" Nullable="false" />
+    <Property Name="Ime_Oznake" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Kontakt" Relationship="Self.FK_Kontakt_Vrsta_Kontakta" FromRole="Vrsta_Kontakta" ToRole="Kontakt" />
+  </EntityType>
+  <EntityType Name="Adresa">
+    <Key>
+      <PropertyRef Name="Adresa1" />
+      <PropertyRef Name="Postanski_Broj" />
+      <PropertyRef Name="Grad" />
+      <PropertyRef Name="IDOsobe" />
+      <PropertyRef Name="IDOznakeAdresa" />
+    </Key>
+    <Property Name="Adresa1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Postanski_Broj" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Grad" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDOsobe" Type="Int32" Nullable="false" />
+    <Property Name="IDOznakeAdresa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ucenik" Relationship="Self.FK_Adresa_Ucenik1" FromRole="Adresa" ToRole="Ucenik" />
+    <NavigationProperty Name="Vrsta_Adresa" Relationship="Self.FK_Adresa_Vrsta_Adresa" FromRole="Adresa" ToRole="Vrsta_Adresa" />
+  </EntityType>
+  <EntityType Name="Email_Adresa">
+    <Key>
+      <PropertyRef Name="Adresa" />
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="Adresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDOsobe" Type="Int32" Nullable="false" />
+    <Property Name="IDOznakeMail" Type="Int32" />
+    <NavigationProperty Name="Ucenik" Relationship="Self.FK_Email_Adresa_Ucenik1" FromRole="Email_Adresa" ToRole="Ucenik" />
+    <NavigationProperty Name="Vrsta_Email" Relationship="Self.FK_Email_Adresa_Vrsta_Email" FromRole="Email_Adresa" ToRole="Vrsta_Email" />
+  </EntityType>
+  <EntityType Name="Kontakt">
+    <Key>
+      <PropertyRef Name="Broj_Telefona" />
+      <PropertyRef Name="IDOsobe" />
+      <PropertyRef Name="IDOznake" />
+    </Key>
+    <Property Name="Broj_Telefona" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Lokal" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IDOsobe" Type="Int32" Nullable="false" />
+    <Property Name="IDOznake" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ucenik" Relationship="Self.FK_Kontakt_Ucenik1" FromRole="Kontakt" ToRole="Ucenik" />
+    <NavigationProperty Name="Vrsta_Kontakta" Relationship="Self.FK_Kontakt_Vrsta_Kontakta" FromRole="Kontakt" ToRole="Vrsta_Kontakta" />
+  </EntityType>
+  <Association Name="FK_Adresa_Ucenik1">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Adresa" Type="Self.Adresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Adresa">
+        <PropertyRef Name="IDOsobe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Email_Adresa_Ucenik1">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Email_Adresa" Type="Self.Email_Adresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Email_Adresa">
+        <PropertyRef Name="IDOsobe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kontakt_Ucenik1">
+    <End Role="Ucenik" Type="Self.Ucenik" Multiplicity="1" />
+    <End Role="Kontakt" Type="Self.Kontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ucenik">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="Kontakt">
+        <PropertyRef Name="IDOsobe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Adresa_Vrsta_Adresa">
+    <End Role="Vrsta_Adresa" Type="Self.Vrsta_Adresa" Multiplicity="1" />
+    <End Role="Adresa" Type="Self.Adresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vrsta_Adresa">
+        <PropertyRef Name="IDOznakeAdresa" />
+      </Principal>
+      <Dependent Role="Adresa">
+        <PropertyRef Name="IDOznakeAdresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Email_Adresa_Vrsta_Email">
+    <End Role="Vrsta_Email" Type="Self.Vrsta_Email" Multiplicity="0..1" />
+    <End Role="Email_Adresa" Type="Self.Email_Adresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vrsta_Email">
+        <PropertyRef Name="IDOznakeMail" />
+      </Principal>
+      <Dependent Role="Email_Adresa">
+        <PropertyRef Name="IDOznakeMail" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kontakt_Vrsta_Kontakta">
+    <End Role="Vrsta_Kontakta" Type="Self.Vrsta_Kontakta" Multiplicity="1" />
+    <End Role="Kontakt" Type="Self.Kontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vrsta_Kontakta">
+        <PropertyRef Name="IDOznake" />
+      </Principal>
+      <Dependent Role="Kontakt">
+        <PropertyRef Name="IDOznake" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DnevnikEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Ucenik" EntityType="Self.Ucenik" />
+    <EntitySet Name="Vrsta_Adresa" EntityType="Self.Vrsta_Adresa" />
+    <EntitySet Name="Vrsta_Email" EntityType="Self.Vrsta_Email" />
+    <EntitySet Name="Vrsta_Kontakta" EntityType="Self.Vrsta_Kontakta" />
+    <EntitySet Name="Adresa" EntityType="Self.Adresa" />
+    <EntitySet Name="Email_Adresa" EntityType="Self.Email_Adresa" />
+    <EntitySet Name="Kontakt" EntityType="Self.Kontakt" />
+    <AssociationSet Name="FK_Adresa_Ucenik1" Association="Self.FK_Adresa_Ucenik1">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Adresa" EntitySet="Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Email_Adresa_Ucenik1" Association="Self.FK_Email_Adresa_Ucenik1">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Email_Adresa" EntitySet="Email_Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kontakt_Ucenik1" Association="Self.FK_Kontakt_Ucenik1">
+      <End Role="Ucenik" EntitySet="Ucenik" />
+      <End Role="Kontakt" EntitySet="Kontakt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Adresa_Vrsta_Adresa" Association="Self.FK_Adresa_Vrsta_Adresa">
+      <End Role="Vrsta_Adresa" EntitySet="Vrsta_Adresa" />
+      <End Role="Adresa" EntitySet="Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Email_Adresa_Vrsta_Email" Association="Self.FK_Email_Adresa_Vrsta_Email">
+      <End Role="Vrsta_Email" EntitySet="Vrsta_Email" />
+      <End Role="Email_Adresa" EntitySet="Email_Adresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kontakt_Vrsta_Kontakta" Association="Self.FK_Kontakt_Vrsta_Kontakta">
+      <End Role="Vrsta_Kontakta" EntitySet="Vrsta_Kontakta" />
+      <End Role="Kontakt" EntitySet="Kontakt" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
